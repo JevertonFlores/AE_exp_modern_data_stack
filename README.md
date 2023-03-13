@@ -1,5 +1,5 @@
 # Modern Data Stack
-Repositório para preparação e configuração de ambiente, além do versionamento de código de uma stack moderna de dados.
+Repositório para preparação e configuração de ambiente, além do versionamento de código, utilizando uma stack moderna de dados.
 
 
 <h3>Objetivo:</h3>
