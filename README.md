@@ -56,20 +56,20 @@ Criação do schema STG_MDS e suas tabelas no Snowflake após rodar a primeira i
 
 <h3>Docker:</h3>
 
-Como estou utilizando o SO Windows, foi necessário a configuração do Docker para poder subir um container e rodar o serviço do Airflow.
+Como estou utilizando o SO Windows, foi necessário a instalação do wsl (wsl --install) e a configuração do Docker para poder subir um container e rodar o serviço do Airflow.
 
 <img width="959" alt="image" src="https://user-images.githubusercontent.com/36814309/224589873-a38b2990-009f-4e0d-ad3a-82807dfe787a.png">
 
 
 <h3>Airflow:</h3>
 
-Após configurado o Docker, também fiz a instalação do wsl (wsl --install) e do VS Code, além de baixar o Astro CLI. Para iniciar, criei uma pasta chamada airflow na raiz do disco C: e salvei o executável Astro CLI neste diretório, posteriormente no VS Code, fiz a configuração dos arquivos "requeriments" e "env", conforme abaixo:
+Após configurado o Docker, fiz a instalação e do VS Code, além de baixar o Astro CLI. Para iniciar, criei uma pasta chamada airflow na raiz do disco C: e salvei o executável Astro CLI neste diretório, posteriormente no VS Code, conectei no diretório que havia criado e iniciei o Airflow executando o comando .\Astro dev init. Após isso, fiz a configuração dos arquivos "requeriments" e "env", conforme abaixo:
 
 <img width="624" alt="image" src="https://user-images.githubusercontent.com/36814309/224590374-42f40f4c-a00d-434d-b92d-22f9f1c97d8b.png">
 
 <img width="563" alt="image" src="https://user-images.githubusercontent.com/36814309/224590421-2ef6adab-0ee9-41e2-97cb-7c2497435367.png">
 
-Após essa configuração, executei no terminal os comandos ".\Astro dev init" e ".\Astro dev start" para inicializar e rodar o Airflow. Por fim, o serviço está rodando no Docker e consigo acessá-lo no localhost:
+Após essa configuração, executei no terminal oo comando ".\Astro dev start" para rodar o Airflow. Por fim, o serviço está rodando no Docker e consigo acessá-lo no localhost:
 
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/36814309/224590597-fb2c4a78-6cea-4fc3-a069-8330470deaea.png">
 
