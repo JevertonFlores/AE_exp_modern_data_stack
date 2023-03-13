@@ -32,7 +32,7 @@ Banco de dados e tabelas (payments e user):
 
 <h3>Data Warehouse:</h3>
 
-Após criada a conta no Snowflake, criei um novo database que servirá como repositório dos dados, tanto para as camadas de stage quanto para de consumo.
+Após criada a conta no Snowflake, criei um novo database que servirá como repositório dos dados vindos da origem.
 
 Banco de dados MDS criado:
 
@@ -54,7 +54,23 @@ Criação do schema STG_MDS e suas tabelas no Snowflake após rodar a primeira i
 <img width="920" alt="image" src="https://user-images.githubusercontent.com/36814309/224584810-382343f7-d627-48f2-8d27-abc91eb3916c.png">
 
 
+<h3>Docker:</h3>
+
+Como estou utilizando o SO Windows, foi necessário a configuração do Docker para poder subir um container e rodar o serviço do Airflow.
+
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/36814309/224589873-a38b2990-009f-4e0d-ad3a-82807dfe787a.png">
 
 
+<h3>Airflow:</h3>
+
+Após configurado o Docker, também fiz a instalação do wsl (wsl --install) e do VS Code, além de baixar o Astro CLI. Para iniciar, criei uma pasta chamada airflow na raiz do disco C: e salvei o executável Astro CLI neste diretório, posteriormente no VS Code, fiz a configuração dos arquivos "requeriments" e "env", conforme abaixo:
+
+<img width="624" alt="image" src="https://user-images.githubusercontent.com/36814309/224590374-42f40f4c-a00d-434d-b92d-22f9f1c97d8b.png">
+
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/36814309/224590421-2ef6adab-0ee9-41e2-97cb-7c2497435367.png">
+
+Após essa configuração, executei no terminal os comandos ".\Astro dev init" e ".\Astro dev start" para inicializar e rodar o Airflow. Por fim, o serviço está rodando no Docker e consigo acessá-lo no localhost:
+
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/36814309/224590597-fb2c4a78-6cea-4fc3-a069-8330470deaea.png">
 
 
