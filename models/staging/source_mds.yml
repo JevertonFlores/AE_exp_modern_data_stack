@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: mds
+    schema: raw
+    tables:
+      - name: user
+      - name: payments
+      - name: subscriptions

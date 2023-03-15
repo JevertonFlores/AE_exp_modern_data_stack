@@ -3,7 +3,7 @@
 with src_user as (
     select 
     *
-    from raw.user
+    from {{ source('raw', 'user') }}
 )
 
 select 

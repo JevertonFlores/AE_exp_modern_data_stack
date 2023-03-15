@@ -3,10 +3,11 @@
 with src_subscriptions as (
     select
     *
-    from raw.subscriptions
+    from {{ source('raw', 'subscriptions') }}
 )
 
 select
+    sb.user_id,
     sb.plan,
     sb.status,
     sb.payment_term,

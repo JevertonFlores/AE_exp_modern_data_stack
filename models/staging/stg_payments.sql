@@ -3,7 +3,7 @@
 with src_payments as (
     select
     *
-    from raw.payments
+    from {{ source('raw', 'payments')}}
 )
 
 select 
