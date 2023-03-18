@@ -15,6 +15,17 @@ Este projeto tem como objetivo a exploração de soluções modernas para o dese
 - Airflow para a orquestração do pipeline.
 
 
+<h3> Arquitetura e Pipeline: </h3>
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/36814309/226114581-1ee32085-e914-4078-89f2-a9afa4a3560d.png">
+
+<img width="456" alt="image" src="https://user-images.githubusercontent.com/36814309/226114595-ccfe05c5-f469-4e15-bdba-f4cf1cd37982.png">
+
+<img width="424" alt="image" src="https://user-images.githubusercontent.com/36814309/226114615-64c290ff-ef1d-410e-a24d-529f02ada69d.png">
+
+<img width="278" alt="image" src="https://user-images.githubusercontent.com/36814309/226114629-e04d41ce-052c-4210-833c-c0b48e47eb16.png">
+
+
 <h2>Configuração de ambiente:</h2>
 
 <h3>Origens dos dados:</h3>
