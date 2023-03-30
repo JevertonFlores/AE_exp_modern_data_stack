@@ -85,3 +85,8 @@ Após essa configuração, executei no terminal oo comando ".\Astro dev start" p
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/36814309/224590597-fb2c4a78-6cea-4fc3-a069-8330470deaea.png">
 
 
+<h3>Lineage final no dbt:</h3>
+
+<img width="909" alt="image" src="https://user-images.githubusercontent.com/36814309/228707994-fe61f93e-2d16-4441-8076-0d075509fe30.png">
+
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/36814309/228708538-fd90b8d7-e860-4df7-84d0-9ae205dd80fb.png">
