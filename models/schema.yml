@@ -7,14 +7,14 @@ models:
         tests:
           - not_null
 
-  - name: payments
+  - name: stg_payments
     columns:
       - name: user_id
         tests:
           - unique
           - not_null
 
-  - name: user
+  - name: stg_user
     columns:
       - name: id
         tests:
